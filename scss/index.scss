@@ -1,0 +1,19 @@
+/* import the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+/* make changes to the !default Bootstrap variables */
+// $body-color: green;
+
+/* finally, import Bootstrap to set the changes! */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "variables";
+@import "base";
+
+// Custom Components
+@import "button";
+@import "navs";
+@import "card";
+@import "footer";
+@import "board";
